@@ -29,6 +29,6 @@ let numberOfItems = 5;
 let price = 20;
 let place = "Vincent's"
 let totalPrice = numberOfItems * price;
-let checkOut = userName + " bought " + numberOfItems + " items for " + totalPrice + " at " + place + ".";
+let checkOut = userName + " bought " + numberOfItems + " items for $" + totalPrice + " at " + place + ".";
 
 console.log(checkOut);
