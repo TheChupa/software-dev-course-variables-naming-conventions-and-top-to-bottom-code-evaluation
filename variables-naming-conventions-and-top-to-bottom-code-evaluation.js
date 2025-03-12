@@ -24,9 +24,10 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let userName = "Alice";
+let numberOfItems = 5;
+let price = 20;
+let totalPrice = numberOfItems * price;
+let checkOut = userName + " bought " + numberOfItems + " items for " + totalPrice + ".";
 
-console.log(d);
+console.log(checkOut);
